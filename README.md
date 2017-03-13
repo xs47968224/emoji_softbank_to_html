@@ -28,7 +28,7 @@ PS:
 
 ---------------
 使用
- + 在需要转换emoji编码的html外套上加上 class="emoji_nickname" 或 其它你想设置的样式标签
+ + 在需要转换emoji编码的html外套上加上 class="emoji_nickname" 或 其它你想设置的样式标签, 具体参考 test.html 中代码
 ```html
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
