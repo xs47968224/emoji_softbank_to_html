@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>emoji</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Theme -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="http://v3.bootcss.com/assets/css/docs.min.css" rel="stylesheet">
+
+    <style type="text/css">
+    body {
+        font-family: 'Microsoft YaHei', 'SimHei', 'Microsoft JengHei', Tahoma, Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #333;
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+        -moz-osx-font-smoothing: grayscale !important;
+        -ms-overflow-style: scrollbar;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container " id="container" style="padding-bottom: 500px;">
+        <div class="row">
+         <table cellspacing="0" class="table full-bottom table-center" style="margin-bottom:5px!important">
+            <tbody>
+                <tr><th class="table-title">昵称</th></tr>
+
+                <tr><td class="emoji_nickname">测试名字</td></tr>
+                <tr><td class="emoji_nickname">测试  测试</td></tr>
+                <tr><td class="emoji_nickname">    </td></tr>
+                <tr><td class="emoji_nickname">测试</td></tr>
+                <tr><td class="emoji_nickname">🎀💤测试🉐测试💋</td></tr>
+                <tr><td class="emoji_nickname">测试 </td></tr>
+                <tr><td class="emoji_nickname">   </td></tr>
+                <tr><td class="emoji_nickname">测试</td></tr>
+                <tr><td class="emoji_nickname">测试 测试</td></tr>
+                <tr><td class="emoji_nickname">测试，测试，  ，测试</td></tr>
+                <tr><td class="emoji_nickname">测试</td></tr>
+                <tr><td class="emoji_nickname">测试</td></tr>
+                <tr><td class="emoji_nickname">  测试  </td></tr>
+                <tr><td class="emoji_nickname">测试</td></tr>
+                <tr><td class="emoji_nickname"> 测试</td></tr>
+                <tr><td class="emoji_nickname"></td></tr>
+                <tr><td class="emoji_nickname"></td></tr>
+                <tr><td class="emoji_nickname">测试</td></tr>
+                <tr><td class="emoji_nickname">测试</td></tr>
+            </tbody>
+        </table>
+
+
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+
+
+
+    <!--emoji Convert-->
+    <link href="emoji.css" rel="stylesheet">
+    <script src="emojiConvert.js"></script>
+    <script type="text/javascript">
+    	jQuery(document).ready(function($) {
+    		$('.emoji_nickname').emojiConvert();
+    	});
+    </script>
+
+</body>
+
+</html>
