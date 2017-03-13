@@ -29,17 +29,19 @@ PS:
 ---------------
 使用
  + 在需要转换emoji编码的html外套上加上 class="emoji_nickname" 或 其它你想设置的样式标签
-```javascript
- <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+```html
  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
- <!--emoji Convert-->
  <link href="emoji.css" rel="stylesheet">
  <script src="emojiConvert.js"></script>
  <script type="text/javascript">
+```
+```javascript
  	jQuery(document).ready(function($) {
  		// 查找指定样式标签，检测 softbank 编码
  		$('.emoji_nickname').emojiConvert();
  	});
+```
+```html
  </script>
 ```
 ---------------
